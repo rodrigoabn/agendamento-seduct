@@ -79,7 +79,7 @@ if "usuario_logado" not in st.session_state:
         st.write("Acesso para servidores agendarem atendimento.")
         link_google = obter_link_login()
         botao_html = f"""
-            <a href="{link_google}" target="_self" style="
+            <a href="{link_google}" target="_top" style="
                 display: inline-block; padding: 0.5rem 1rem; background-color: #FF4B4B;
                 color: white; text-decoration: none; border-radius: 0.5rem; font-weight: 600;
             ">Entrar com o Google(@edu)</a>
