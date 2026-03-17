@@ -76,7 +76,7 @@ def obter_link_login():
         "provider": "google",
         "options": {
             # Redireciona de volta para o app local
-            "redirect_to": "http://localhost:8501" 
+            "redirect_to": "https://agendamento-treinamento.streamlit.app" 
         }
     })
     return resposta.url
